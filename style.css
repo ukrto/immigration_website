@@ -10,10 +10,7 @@
     border-bottom: 2px solid rgb(248, 75, 6);
     text-align: center;
 }
-.imagePoster-main{
-    width: fit-content;
-    height: 100vh;
-}
+
 .main-image{
     position: relative;
 }
@@ -85,6 +82,10 @@
         right: 70px;
         font-size: 10px;
     }
+    .imagePoster-main{
+    width: fit-content;
+    height: 100vh;
+}
 }
 
 
