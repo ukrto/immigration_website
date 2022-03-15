@@ -1,304 +1,422 @@
 <!DOCTYPE html>
 <html lang="uk">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="style.css">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-   </head>
-   <body>
-      <nav class="navbar navbar-expand-sm navbar-dark bg-light" aria-label="Third navbar example">
-         <div class="container-fluid">
-            <a class="navbar-brand col-4" href="index.html"> <img src="/photo/_uit_logo_color.png" alt="" width="50px"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon bg-custom1"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarsExample03">
-               <ul class="navbar-nav me-auto mb-2 mb-sm-0">
-                  <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="#"> <span class="nav-text"> Прихисток</span></a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="#"> <span class="nav-text"> Переїзд</span></a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><span class="nav-text">Життя</span></a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><span class="nav-text">Події</span></a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><span class="nav-text">UkrToOffers</span></a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </nav>
-      <!--Main header-->
-      <body data-new-gr-c-s-check-loaded="14.1052.0" data-gr-ext-installed="">
-         <main class="container">
-            <div class="p-4 p-md-5 mt-1 mb-4 bg-custom">
-               <div class="col-md-8 px-0">
-                  <h1 class="display-8 fst-italic"> <span class="name"> Отримання туристичної візи</span></h1>
-               </div>
-            </div>
-            <!--Fast access-->
-            <nav class="nav d-flex flex-column justify-content-start">
-               <p class="p-2">Швидкий доступ:</p>
-               <a class="p-2 link-secondary" href="#info">Безвізового режиму з Канадою у України немає.</a>
-               <a class="p-2 link-secondary" href="#addInfo">Як податися на туристичну візу за спрощенною процедурою?</a>
-               <a class="p-2 link-secondary" href="#nowWork">Де подаватися онлайн?</a>
-               <a class="p-2 link-secondary" href="#rules">Важливо: code UKRAINE2022</a>
-               <a class="p-2 link-secondary" href="#passport">Що робити, якщо немає або витік термін дії паспортів?</a>
-               <a class="p-2 link-secondary" href="#documents">Що робити, якщо не всі документи є на руках?</a>
-               <a class="p-2 link-secondary" href="#covid">Чи можна їхати людям без вакцини проти COVID-19?</a>
-               <a class="p-2 link-secondary" href="#noDoc">Що робити, якщо не всі документи є на руках?</a>
-               <a class="p-2 link-secondary" href="#translation">Як бути з перекладом документів?</a>
-            </nav>
-            <div class="row g-5">
-               <div class="col-md-8">
-                  <h3 class="pb-4 mb-4 fst-italic border-bottom">
-                  </h3>
-                  <section id="info">
-                    <!--Article1-->
-                     <article class="blog-post">
-                     <h2 class="blog-post-title">Безвізового режиму з Канадою у України немає.</h2>
-                     <p class="blog-post-meta">07/03/2022</p>
-                     <p>Станом на 5 березня, <strong> вас не посадять у літак в Канаду без дійсної візи, PR картки (ПМЖ) або канадських паспортів.</strong></p>
-                     <p>Після нападу Росії на Україну 24.02.2022 Канада спростила вимоги до кандидатів для отримання візи та зробила українців приорітетною національністю для розгляду заяв на туристичну візу</p>
-                  </section>
-                  <br>
-                  <section id="addInfo">
-                    <!--Article2-->
-                     <article class="blog-post">
-                     <h2 class="blog-post-title">Як податися на туристичну візу за спрощенною процедурою?</h2>
-                     <p class="blog-post-meta">07/03/2022</p>
-                     <ul>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" type="image/jpg" href="photo/_uit_logo_color.png"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <script src="js/load_header_footer.js" defer></script>
+</head>
+<body>
+<header></header>
+<main class="container" data-new-gr-c-s-check-loaded="14.1052.0" data-gr-ext-installed="">
+    <div class="p-4 p-md-5 mt-1 mb-4 bg-custom">
+        <div class="col-md-8 px-0">
+            <h1 class="display-8 fst-italic"><span class="name"> Отримання туристичної візи</span>
+            </h1>
+        </div>
+    </div>
+    <!--Fast access-->
+    <nav class="nav d-flex flex-column justify-content-start">
+        <p class="p-2">Швидкий доступ:</p>
+        <a class="p-2 link-secondary" href="#info">Безвізового режиму з Канадою у України немає.</a>
+        <a class="p-2 link-secondary" href="#addInfo">Як податися на туристичну візу за спрощенною
+            процедурою?</a>
+        <a class="p-2 link-secondary" href="#nowWork">Де подаватися онлайн?</a>
+        <a class="p-2 link-secondary" href="#rules">Важливо: code UKRAINE2022</a>
+        <a class="p-2 link-secondary" href="#passport">Що робити, якщо немає або витік термін дії
+            паспортів?</a>
+        <a class="p-2 link-secondary" href="#documents">Що робити, якщо не всі документи є на
+            руках?</a>
+        <a class="p-2 link-secondary" href="#covid">Чи можна їхати людям без вакцини проти
+            COVID-19?</a>
+        <a class="p-2 link-secondary" href="#noDoc">Що робити, якщо не всі документи є на руках?</a>
+        <a class="p-2 link-secondary" href="#translation">Як бути з перекладом документів?</a>
+    </nav>
+    <div class="row g-5">
+        <div class="col-md-8">
+            <h3 class="pb-4 mb-4 fst-italic border-bottom">
+            </h3>
+            <section id="info">
+                <!--Article1-->
+                <article class="blog-post">
+                    <h2 class="blog-post-title">Безвізового режиму з Канадою у України
+                        немає.</h2>
+                    <p class="blog-post-meta">07/03/2022</p>
+                    <p>Станом на 5 березня, <strong> вас не посадять у літак в Канаду без
+                        дійсної візи, PR картки (ПМЖ) або канадських паспортів.</strong></p>
+                    <p>Після нападу Росії на Україну 24.02.2022 Канада спростила вимоги до
+                        кандидатів для отримання візи та зробила українців приорітетною
+                        національністю для розгляду заяв на туристичну візу</p>
+                </article>
+            </section>
+            <br>
+            <section id="addInfo">
+                <!--Article2-->
+                <article class="blog-post">
+                    <h2 class="blog-post-title">Як податися на туристичну візу за спрощенною
+                        процедурою?</h2>
+                    <p class="blog-post-meta">07/03/2022</p>
+                    <ul>
                         <li>Подаватися потрібно онлайн.</li>
-                        <li>Зібрати всі можливі документи, заповнити аплікаційну форму на сайті, надіслати на розгляд.</li>
-                        <li>Здати біометрію (відбитки пальців) у посольстві Канади (вам надішлють вся деталі після подачі на візу).</li>
-                        <li>Приїхати із паспортом в посольство Канади (не в Україні та не в Росії), отримати вклейку візи у паспорт.</li>
+                        <li>Зібрати всі можливі документи, заповнити аплікаційну форму на сайті,
+                            надіслати на розгляд.
+                        </li>
+                        <li>Здати біометрію (відбитки пальців) у посольстві Канади (вам надішлють
+                            вся деталі після подачі на візу).
+                        </li>
+                        <li>Приїхати із паспортом в посольство Канади (не в Україні та не в
+                            Росії), отримати вклейку візи у паспорт.
+                        </li>
                         <li>Прилетіти в Канаду.</li>
-                        <li>НЕ називати себе не кордоні біженцем, якщо ви не на всі 200% впевнені у тому, що саме за нинішньою програмою біженства хочете подаватися (дивіться блок 1 вище з деталями про це).</li>
-                     </ul>
-                  </section>
-                  <br>
-                  <!--Article3-->
-                  <section id="nowWork">
-                     <article class="blog-post">
-                     <h2 class="blog-post-title">Де подаватися онлайн?</h2>
-                     <p class="blog-post-meta">07/03/2022</p>
-                     <p>Онлан-портал для подачі на візові документи:</p>
-                     <a class="link" href="https://www.cic.gc.ca/visit-visiter/en/instructions-ircc-portal?fbclid=IwAR1Gr6wPPbL8nY54DuEYnBE6oGYnBvvqcnRQt3fOno3byK89cJSEDb5f0PU" target="_blank">Apply online with the IRCC Portal</a>
-                     <hr>
-                     <p>Форма для подачі на туристичну візу:</p>
-                     <a class="link" href="https://secure.cic.gc.ca/enquiries-renseignements/canada-case-cas-eng.aspx?fbclid=IwAR0RRij-QFqOmNtumNhfU4hCJuxz8IWXpxf3fPEVVhX5r3-8Sh17tpfEBWo" target="_blank">IRCC Webform</a>
-                     <hr>
-                     <p>На Facebook є група підтримки, ви там можете почитати досвід інших та поставити свої запитання. Називається <a class="link" href="https://www.facebook.com/groups/ukrainianstocanada">Україна та Канада: імміграція, біженство, притулок.</a></p>
-                     <br>
-                  </section>
-                  <!--Article4-->
-                  <section id="rules">
-                     <article class="blog-post">
-                     <h2 class="blog-post-title">Важливо:</h2>
-                     <p class="blog-post-meta">07/03/2022</p>
-                     <p>обов'язково вказуйте в аплікації <strong> код Ukraine2022</strong>. Це тег/лейбл/кодове слово, за яким система бачить заявки від українців та офіцери розглядають їх у першу чергу.</p>
-                     <p>На відео нижче ліцензований імміграційний консультант Яна Дідик <a class="link" href="https://www.facebook.com/yana.didyk">Yana Ivanna Didyk</a>  показує деталі заповнення форми:</p>
-                     <div class="d-flex justify-content-start">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/p9IobQRH118" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                     </div>
-                  </section>
-                  <br>
-                  <!--Article5-->
-                  <section id="passport">
-                     <article class="blog-post">
-                     <h2 class="blog-post-title">Що робити, якщо немає або витік термін дії паспортів?</h2>
-                     <p class="blog-post-meta">07/03/2022</p>
-                     <div class="d-flex justify-content-start mt-5">
+                        <li>НЕ називати себе не кордоні біженцем, якщо ви не на всі 200% впевнені
+                            у тому, що саме за нинішньою програмою біженства хочете подаватися
+                            (дивіться блок 1 вище з деталями про це).
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <br>
+            <!--Article3-->
+            <section id="nowWork">
+                <article class="blog-post">
+                    <h2 class="blog-post-title">Де подаватися онлайн?</h2>
+                    <p class="blog-post-meta">07/03/2022</p>
+                    <p>Онлан-портал для подачі на візові документи:</p>
+                    <a class="link"
+                       href="https://www.cic.gc.ca/visit-visiter/en/instructions-ircc-portal?fbclid=IwAR1Gr6wPPbL8nY54DuEYnBE6oGYnBvvqcnRQt3fOno3byK89cJSEDb5f0PU"
+                       target="_blank">Apply online with the IRCC Portal</a>
+                    <hr>
+                    <p>Форма для подачі на туристичну візу:</p>
+                    <a class="link"
+                       href="https://secure.cic.gc.ca/enquiries-renseignements/canada-case-cas-eng.aspx?fbclid=IwAR0RRij-QFqOmNtumNhfU4hCJuxz8IWXpxf3fPEVVhX5r3-8Sh17tpfEBWo"
+                       target="_blank">IRCC Webform</a>
+                    <hr>
+                    <p>На Facebook є група підтримки, ви там можете почитати досвід інших та
+                        поставити свої запитання. Називається <a class="link"
+                                                                 href="https://www.facebook.com/groups/ukrainianstocanada">Україна
+                            та Канада: імміграція, біженство, притулок.</a></p>
+                    <br>
+                </article>
+            </section>
+            <!--Article4-->
+            <section id="rules">
+                <article class="blog-post">
+                    <h2 class="blog-post-title">Важливо:</h2>
+                    <p class="blog-post-meta">07/03/2022</p>
+                    <p>обов'язково вказуйте в аплікації <strong> код Ukraine2022</strong>. Це
+                        тег/лейбл/кодове слово, за яким система бачить заявки від українців та
+                        офіцери розглядають їх у першу чергу.</p>
+                    <p>На відео нижче ліцензований імміграційний консультант Яна Дідик <a
+                            class="link" href="https://www.facebook.com/yana.didyk">Yana Ivanna
+                        Didyk</a> показує деталі заповнення форми:</p>
+                    <div class="d-flex justify-content-start">
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/p9IobQRH118"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                </article>
+            </section>
+            <br>
+            <!--Article5-->
+            <section id="passport">
+                <article class="blog-post">
+                    <h2 class="blog-post-title">Що робити, якщо немає або витік термін дії
+                        паспортів?</h2>
+                    <p class="blog-post-meta">07/03/2022</p>
+                    <div class="d-flex justify-content-start mt-5">
                         <div class="accordion col-12 " id="accordionExample">
-                           <div class="accordion-item">
-                              <h2 class="accordion-header" id="headingOne">
-                                 <button class="accordion-button collapsed font-text" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                 Якщо у вас немає (та не було) закордонного паспорта
-                                 </button>
-                              </h2>
-                              <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                 <div class="accordion-body">
-                                    <p class="font-text">До Європи зараз можна поїхати без закордонного паспорта. У цьому разі на кордоні необхідно подати заяву про тимчасовий прихисток. Такий прихисток надається строком на 1 рік.
-                                       З собою необхідно взяти інший документ, що посвідчує особу, медичну документацію, та інші важливі документи. <br> Коли в Європі, зверніться до посольства України для того, щоб подати заяву на отримання закордонного паспорту.
-                                    </p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="accordion-item">
-                              <h2 class="accordion-header" id="headingTwo">
-                                 <button class="accordion-button collapsed font-text" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                 Що робити, якщо строк вашого закордонного паспорта закінчився?
-                                 </button>
-                              </h2>
-                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                 <div class="accordion-body">
-                                    <p class="font-text">З 1 березня 2022 року строк дії паспортів громадян України для виїзду за кордон може продовжуватись на 5 років.</p>
-                                    <p class="font-text">Щоб продовжити дію паспорта, необхідно подати цей паспорт до територіального підрозділу Державної міграційної служби, або посольства чи консульської установи України, незалежно від місця реєстрації, тобто - за місцем звернення.</p>
-                                    <p class="font-text">Інформація вноситься в закордонний паспорт в день звернення, безоплатно.</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="accordion-item ">
-                              <h2 class="accordion-header " id="headingThree">
-                                 <button class="accordion-button collapsed font-text" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                 Чи можна виїхати в Канаду без закордонних паспортів?
-                                 </button>
-                              </h2>
-                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                 <div class="accordion-body">
-                                    <p class="font-text">Зараз це точно не є можливим, тому що нині в'їзд здійснюється за туристичною візою, її ставлять в закордонний паспорт.</p>
-                                    <p class="font-text">Хоча деталей оголошених додаткових програм (станом на 5 березня) іще не знаємо, немає приводу думати, що їх будуть обслуговувати без паспортів. Для біженців та людей інших статусів зазвичай роблять одноразову візу для приїзду в Канаду, її теж вклеїти мають у паспорт.</p>
-                                    <p>Очікуваний алгоритм: українці можуть заїхати в Польщу, наприклад, за будь-якими документами. Там у Посольстві України можуть зробити закордонний паспорт, у нього отримати візу в Канаду, прилетіти за цією візою.</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="accordion-item">
-                              <h2 class="accordion-header" id="headingFour">
-                                 <button class="accordion-button collapsed font-text" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                 Що робити, якщо немає паспортів дітей?
-                                 </button>
-                              </h2>
-                              <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                 <div class="accordion-body">
-                                    <p class="font-text">Просити вписати їх у паспорти дорослих. Ця процедура можлива. У команди CUIAS Immigrant Services на цьому тижні вже були випадки успішної вписки з метою перетину кордону та подальшої міграції. </p>
-                                 </div>
-                              </div>
-                           </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed font-text"
+                                            type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                        Якщо у вас немає (та не було) закордонного паспорта
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse "
+                                     aria-labelledby="headingOne"
+                                     data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="font-text">До Європи зараз можна поїхати без
+                                            закордонного паспорта. У цьому разі на кордоні необхідно
+                                            подати заяву про тимчасовий прихисток. Такий прихисток
+                                            надається строком на 1 рік.
+                                            З собою необхідно взяти інший документ, що посвідчує
+                                            особу, медичну документацію, та інші важливі документи.
+                                            <br> Коли в Європі, зверніться до посольства України для
+                                            того, щоб подати заяву на отримання закордонного
+                                            паспорту.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed font-text"
+                                            type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                        Що робити, якщо строк вашого закордонного паспорта
+                                        закінчився?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                     aria-labelledby="headingTwo"
+                                     data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="font-text">З 1 березня 2022 року строк дії
+                                            паспортів громадян України для виїзду за кордон може
+                                            продовжуватись на 5 років.</p>
+                                        <p class="font-text">Щоб продовжити дію паспорта, необхідно
+                                            подати цей паспорт до територіального підрозділу
+                                            Державної
+                                            міграційної служби, або посольства чи консульської
+                                            установи України, незалежно від місця реєстрації, тобто
+                                            -
+                                            за місцем звернення.</p>
+                                        <p class="font-text">Інформація вноситься в закордонний
+                                            паспорт в день звернення, безоплатно.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item ">
+                                <h2 class="accordion-header " id="headingThree">
+                                    <button class="accordion-button collapsed font-text"
+                                            type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                        Чи можна виїхати в Канаду без закордонних паспортів?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                     aria-labelledby="headingThree"
+                                     data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="font-text">Зараз це точно не є можливим, тому що
+                                            нині в'їзд здійснюється за туристичною візою, її
+                                            ставлять
+                                            в закордонний паспорт.</p>
+                                        <p class="font-text">Хоча деталей оголошених додаткових
+                                            програм (станом на 5 березня) іще не знаємо, немає
+                                            приводу
+                                            думати, що їх будуть обслуговувати без паспортів. Для
+                                            біженців та людей інших статусів зазвичай роблять
+                                            одноразову візу для приїзду в Канаду, її теж вклеїти
+                                            мають
+                                            у паспорт.</p>
+                                        <p>Очікуваний алгоритм: українці можуть заїхати в Польщу,
+                                            наприклад, за будь-якими документами. Там у Посольстві
+                                            України можуть зробити закордонний паспорт, у нього
+                                            отримати візу в Канаду, прилетіти за цією візою.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed font-text"
+                                            type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseFour" aria-expanded="false"
+                                            aria-controls="collapseFour">
+                                        Що робити, якщо немає паспортів дітей?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse "
+                                     aria-labelledby="headingFour"
+                                     data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="font-text">Просити вписати їх у паспорти дорослих.
+                                            Ця процедура можлива. У команди CUIAS Immigrant Services
+                                            на цьому тижні вже були випадки успішної вписки з метою
+                                            перетину кордону та подальшої міграції. </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                  </section>
-                  <br>
-                  <!--Article6-->
-                  <section id="documents">
-                  <article class="blog-post">
-                  <h2 class="blog-post-title">Що робити, якщо не всі документи є на руках?</h2>
-                  <p class="blog-post-meta">07/03/2022</p>
-                  <p>Анкета та список документів, які від вас проситимуть онлайн є поки що стандартним для будь-якої візової аплікації до Канади. Спробуйте зібрати максимум можливих: замість довідки з банку, наприклад, зробіть скрін рахунків онлайн та додайте до пакету.</p>
-                  <p>Виносимо з коментарів у групі також відповідь ліцензованого імміграційного консультанта Ірини Мацюк <a class="link" href="https://www.facebook.com/iryna.matsyuk">Iryna Matsiuk</a>  про нестачу документів.</p>
-                  <p><em>"Поки не буде спрощеної процедури заяви на візу, як це нам пообіцяли в четвер [3 березня], потрібно подати всі документи, як для звичайної заяви. Якщо у заявника нема якихось документів або нема можливості зробити переклад, тоді треба додати лист-пояснення - чому я не можу додати документ.
-                     Сказати, що в моїй країні війна недостатньо, треба сказати як є - документ втрачений/згорів / не можу дістати, бо заклади закриті і тд, забув/ла вдома, коли швидко збирали речі
-                     Переклад на візітор візу не потрібно мати нотаріально завірений, може бути просто декларація і підпис перекладача.
-                     Зараз до більшості заявників становляться дуже лояльно, тому треба пробувати. Але в той же час не подавати лише паспорт"</em>
-                  </p>
-                  <hr>
-                  <h3>Оплата за розгляд візи</h3>
-                  <p>Якщо подаєтеся прямо зараз, з вас може бути стягнута оплата за розгляд. Держагенство IRCC оголосили, що українцям або скасують, або будуть повертати потім на картку, з якої платили, цю оплату.</p>
-                  <br>
-                  <!--Article7-->
-                  <section class="covid">
-                     <article class="blog-post">
-                     <h2 class="blog-post-title">Чи можна їхати людям без вакцини проти COVID-19?</h2>
-                     <p class="blog-post-meta">07/03/2022</p>
-                     <p>Українцям без вакцини/з неповним її курсом та вакцинованим можна заїжджати в Канаду.</p>
-                     <p>Виносимо з коментарів у групі також відповідь ліцензованого імміграційного консультанта Ірини Мацюк <a class="link" href="https://www.facebook.com/iryna.matsyuk">Iryna Matsiuk</a>  про нестачу документів.</p>
-                     <p>Далі цитата з урядової сторінки <a class="link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/ukraine-measures.html"> Immigration measures for people affected by the situation in Ukraine</a></p>
-                     <ul>
+                    </div>
+                </article>
+            </section>
+            <br>
+            <!--Article6-->
+            <section id="documents">
+                <article class="blog-post">
+                    <h2 class="blog-post-title">Що робити, якщо не всі документи є на
+                        руках?</h2>
+                    <p class="blog-post-meta">07/03/2022</p>
+                    <p>Анкета та список документів, які від вас проситимуть онлайн є поки що
+                        стандартним для будь-якої візової аплікації до Канади. Спробуйте
+                        зібрати
+                        максимум можливих: замість довідки з банку, наприклад, зробіть скрін
+                        рахунків онлайн та додайте до пакету.</p>
+                    <p>Виносимо з коментарів у групі також відповідь ліцензованого
+                        імміграційного
+                        консультанта Ірини Мацюк <a class="link"
+                                                    href="https://www.facebook.com/iryna.matsyuk">Iryna
+                            Matsiuk</a> про нестачу документів.</p>
+                    <p><em>"Поки не буде спрощеної процедури заяви на візу, як це нам
+                        пообіцяли в
+                        четвер [3 березня], потрібно подати всі документи, як для звичайної
+                        заяви.
+                        Якщо у заявника нема якихось документів або нема можливості зробити
+                        переклад, тоді треба додати лист-пояснення - чому я не можу додати
+                        документ.
+                        Сказати, що в моїй країні війна недостатньо, треба сказати як є -
+                        документ
+                        втрачений/згорів / не можу дістати, бо заклади закриті і тд, забув/ла
+                        вдома, коли швидко збирали речі
+                        Переклад на візітор візу не потрібно мати нотаріально завірений, може
+                        бути
+                        просто декларація і підпис перекладача.
+                        Зараз до більшості заявників становляться дуже лояльно, тому треба
+                        пробувати. Але в той же час не подавати лише паспорт"</em>
+                    </p>
+                    <hr>
+                    <h3>Оплата за розгляд візи</h3>
+                    <p>Якщо подаєтеся прямо зараз, з вас може бути стягнута оплата за
+                        розгляд.
+                        Держагенство IRCC оголосили, що українцям або скасують, або будуть
+                        повертати потім на картку, з якої платили, цю оплату.</p>
+                    <br>
+                </article>
+            </section>
+            <!--Article7-->
+            <section class="covid">
+                <article class="blog-post">
+                    <h2 class="blog-post-title">Чи можна їхати людям без вакцини проти
+                        COVID-19?</h2>
+                    <p class="blog-post-meta">07/03/2022</p>
+                    <p>Українцям без вакцини/з неповним її курсом та вакцинованим можна
+                        заїжджати в Канаду.</p>
+                    <p>Виносимо з коментарів у групі також відповідь ліцензованого
+                        імміграційного консультанта Ірини Мацюк <a class="link"
+                                                                   href="https://www.facebook.com/iryna.matsyuk">Iryna
+                            Matsiuk</a> про нестачу документів.</p>
+                    <p>Далі цитата з урядової сторінки <a class="link"
+                                                          href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/ukraine-measures.html">
+                        Immigration measures for people affected by the situation in
+                        Ukraine</a></p>
+                    <ul>
                         <li>володарям тимчасової (візитирської/туристичної) візи</li>
                         <li>перманетним резидентам (PR)</li>
-                        <li>запрошеним (із відповідним листом) для лендингу перманентним резидентам</li>
-                     </ul>
-                     <p>"You can now enter Canada if you're an unvaccinated Ukrainian national with a</p>
-                     <ul>
+                        <li>запрошеним (із відповідним листом) для лендингу перманентним
+                            резидентам
+                        </li>
+                    </ul>
+                    <p>"You can now enter Canada if you're an unvaccinated Ukrainian
+                        national with a</p>
+                    <ul>
                         <li>temporary resident visa (visitor visa)</li>
                         <li>temporary resident permit or</li>
-                        <li>written notice your application for permanent residence in Canada was approved</li>
-                     </ul>
-                     <p>This also applies if the vaccine you had isn't currently recognized by Canada (WHO-approved).
-                        When you arrive in Canada, you'll still need to meet all other public health requirements, such as quarantine and testing (including a COVID test before boarding your flight)."
-                     </p>
-                     <br>
-                  </section>
-                  <!--Article8-->
-                  <section id="noDoc">
-                     <article class="blog-post">
-                     <h2 class="blog-post-title">Що робити, якщо не всі документи є на руках?</h2>
-                     <p class="blog-post-meta">07/03/2022</p>
-                     <p>Анкета та список документів, які від вас проситимуть онлайн є стандартним для будь-якої візової аплікації до Канади. Спробуйте зібрати максимум можливих: замість довідки з банку, наприклад, зробіть скрін рахунків онлайн та додайте до пакету.</p>
-                     <p>Виносимо з коментарів у групі також відповідь ліцензованого імміграційного консультанта Ірини Мацюк про нестачу документів.</p>
-                     <p><em>"Поки не буде спрощеної процедури заяви на візу, як це нам пообіцяли в четвер [3 березня], потрібно подати всі документи, як для звичайної заяви. Якщо у заявника нема якихось документів або нема можливості зробити переклад, тоді треба додати лист-пояснення - чому я не можу додати документ.
-                        Сказати, що в моїй країні війна недостатньо, треба сказати як є - документ втрачений/згорів / не можу дістати, бо заклади закриті і тд, забув/ла вдома, коли швидко збирали речі
-                        Переклад на візітор візу не потрібно мати нотаріально завірений, може бути просто декларація і підпис перекладача.
-                        Зараз до більшості заявників становляться дуже лояльно, тому треба пробувати. Але в той же час не подавати лише паспорт"</em>
-                     </p>
-                     <br>
-                  </section>
-                  <!--Article9-->
-                  <section id="translation">
-                     <article class="blog-post">
-                     <h2 class="blog-post-title">Як бути з перекладом документів?</h2>
-                     <p class="blog-post-meta">07/03/2022</p>
-                     <p>Ви можете перекласти документи самостійно або попросити когось, чия англійська є достатньо хороша. Під або над документамитнапишіть про хто була та людина, що їх перекладала.</p>
-                     <p>Виносимо з коментарів у групі також відповідь ліцензованого імміграційного консультанта Ірини Мацюк про нестачу документів.</p>
-                     <p>Нижче даємо для прикладу, але можете писати довільно. Червоним виділені місця, де мусити вписати свою інформацію:</p>
-                     <p> 🔖 Certificate of Transaction:</p>
-                     <p class="link">This is to certify that the foregoing translation from Ukrainian into English made by the undersigned Full Legal Name of the city of <strong> Mississauga, province of Ontario [change to your city and province of residence]</strong>, who is conversant with both these languages and that to the best of my knowledge and understanding, is a true and complete rendition of the corresponding original document.</p>
-                  </section>
-               </div>
-               <!--Right pannel-->
-               <div class="col-md-4">
-                  <div class="position-sticky" style="top: 2rem;">
-                     <div class="p-4 mb-3 bg-light rounded">
-                        <h4 class="fst-italic">Правила, процедури та новини для Українців</h4>
-                        <p class="mb-0">Про таке: де брати інформацію про імміграцію, чи приймає Канада біженців, як приїхати самим або привезти родичів уже сьогодні.</p>
-                     </div>
-                     <div class="p-4">
-                        <h4 class="fst-italic">Додаток</h4>
-                        <ol class="list-unstyled mb-0">
-                           <li><a class="link" href="index.html">Головна: Правила, процедури та новини для Українців</a></li>
-                           <br>
-                           <li><a class="link" href="canada.html">Джерела інформації про правила та процедури Канади</a></li>
-                           <br>
-                           <li><a class="link" href="canada2.html">Чи приймає Канада біженців?</a></li>
-                           <br>
-                           <li><a class="link" href="tourist.html">Отримання туристичної візи</a></li>
-                        </ol>
-                     </div>
-                     <div class="p-4">
-                        <h4 class="fst-italic">Elsewhere</h4>
-                        <ol class="list-unstyled">
-                           <li><a class="link" href="#">Instagram</a></li>
-                           <li><a class="link" href="#">Facebook</a></li>
-                        </ol>
-                     </div>
-                  </div>
-               </div>
+                        <li>written notice your application for permanent residence in
+                            Canada was approved
+                        </li>
+                    </ul>
+                    <p>This also applies if the vaccine you had isn't currently recognized
+                        by Canada (WHO-approved).
+                        When you arrive in Canada, you'll still need to meet all other
+                        public health requirements, such as quarantine and testing
+                        (including a COVID test before boarding your flight)."
+                    </p>
+                    <br>
+                </article>
+            </section>
+            <!--Article8-->
+            <section id="noDoc">
+                <article class="blog-post">
+                    <h2 class="blog-post-title">Що робити, якщо не всі документи є на
+                        руках?</h2>
+                    <p class="blog-post-meta">07/03/2022</p>
+                    <p>Анкета та список документів, які від вас проситимуть онлайн є
+                        стандартним для будь-якої візової аплікації до Канади. Спробуйте
+                        зібрати максимум можливих: замість довідки з банку, наприклад, зробіть
+                        скрін рахунків онлайн та додайте до пакету.</p>
+                    <p>Виносимо з коментарів у групі також відповідь ліцензованого
+                        імміграційного консультанта Ірини Мацюк про нестачу документів.</p>
+                    <p><em>"Поки не буде спрощеної процедури заяви на візу, як це нам пообіцяли
+                        в четвер [3 березня], потрібно подати всі документи, як для звичайної
+                        заяви. Якщо у заявника нема якихось документів або нема можливості
+                        зробити переклад, тоді треба додати лист-пояснення - чому я не можу
+                        додати документ.
+                        Сказати, що в моїй країні війна недостатньо, треба сказати як є -
+                        документ втрачений/згорів / не можу дістати, бо заклади закриті і тд,
+                        забув/ла вдома, коли швидко збирали речі
+                        Переклад на візітор візу не потрібно мати нотаріально завірений, може
+                        бути просто декларація і підпис перекладача.
+                        Зараз до більшості заявників становляться дуже лояльно, тому треба
+                        пробувати. Але в той же час не подавати лише паспорт"</em>
+                    </p>
+                    <br>
+                </article>
+            </section>
+            <!--Article9-->
+            <section id="translation">
+                <article class="blog-post">
+                    <h2 class="blog-post-title">Як бути з перекладом документів?</h2>
+                    <p class="blog-post-meta">07/03/2022</p>
+                    <p>Ви можете перекласти документи самостійно або попросити когось, чия
+                        англійська є достатньо хороша. Під або над документамитнапишіть про хто
+                        була та людина, що їх перекладала.</p>
+                    <p>Виносимо з коментарів у групі також відповідь ліцензованого
+                        імміграційного консультанта Ірини Мацюк про нестачу документів.</p>
+                    <p>Нижче даємо для прикладу, але можете писати довільно. Червоним виділені
+                        місця, де мусити вписати свою інформацію:</p>
+                    <p> 🔖 Certificate of Transaction:</p>
+                    <p class="link">This is to certify that the foregoing translation from
+                        Ukrainian into English made by the undersigned Full Legal Name of the
+                        city of <strong> Mississauga, province of Ontario [change to your city
+                            and province of residence]</strong>, who is conversant with both
+                        these languages and that to the best of my knowledge and understanding,
+                        is a true and complete rendition of the corresponding original
+                        document.</p>
+                </article>
+            </section>
+        </div>
+        <!--Right pannel-->
+        <div class="col-md-4">
+            <div class="position-sticky" style="top: 2rem;">
+                <div class="p-4 mb-3 bg-light rounded">
+                    <h4 class="fst-italic">Правила, процедури та новини для Українців</h4>
+                    <p class="mb-0">Про таке: де брати інформацію про імміграцію, чи приймає Канада
+                        біженців, як приїхати самим або привезти родичів уже сьогодні.</p>
+                </div>
+                <div class="p-4">
+                    <h4 class="fst-italic">Додаток</h4>
+                    <ol class="list-unstyled mb-0">
+                        <li><a class="link" href="/">Головна: Правила, процедури та новини
+                            для Українців</a></li>
+                        <br>
+                        <li><a class="link" href="canada.html">Джерела інформації про правила та
+                            процедури Канади</a></li>
+                        <br>
+                        <li><a class="link" href="canada2.html">Чи приймає Канада біженців?</a></li>
+                        <br>
+                        <li><a class="link" href="tourist.html">Отримання туристичної візи</a></li>
+                    </ol>
+                </div>
+                <div class="p-4">
+                    <h4 class="fst-italic">Elsewhere</h4>
+                    <ol class="list-unstyled">
+                        <li><a class="link" href="#">Instagram</a></li>
+                        <li><a class="link" href="#">Facebook</a></li>
+                    </ol>
+                </div>
             </div>
-         </main>
-         <!--Footer-->
-         <footer class="pt-4 my-md-5 pt-md-5 border-top p-4">
-            <div class="row">
-               <div class="col-12 col-md">
-                  <img class="mb-2" src="/photo/_uit_logo_color.png" alt="" width="44" height="49">
-                  <small class="d-block mb-3 text-muted">© 2017–2021</small>
-               </div>
-               <div class="col-6 col-md">
-                  <h5>Теми</h5>
-                  <ul class="list-unstyled text-small">
-                     <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Переїзд в Канаду</a></li>
-                     <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Життя в Торонто</a></li>
-                     <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Події громади</a></li>
-                     <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">UkrTO Offers</a></li>
-                  </ul>
-               </div>
-               <div class="col-6 col-md">
-                  <h5>Про нас</h5>
-                  <ul class="list-unstyled text-small">
-                     <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Наша місія</a></li>
-                     <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Співпраця</a></li>
-                     <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Правила спільноти</a></li>
-                  </ul>
-               </div>
-            </div>
-         </footer>
-   </body>
-   </body>
+        </div>
+    </div>
+</main>
+<!--Footer-->
+<footer></footer>
+</body>
 </html>

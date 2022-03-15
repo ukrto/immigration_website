@@ -1,3 +1,6 @@
+html{
+    /*min-width: fit-content;*/
+}
 .nav-text{
     color: rgb(54, 39, 39) ;
     font-size: 20px;
@@ -15,26 +18,25 @@
     position: relative;
 }
 .custom-text{
-    top: 150px;
-    right: 280px;
+    top: 25%;
+    right: 23%;
     position: absolute;
-    
+
 }
 .link-index{
     text-decoration: none;
 }
 
 .border-index{
-    margin: 50px;
     border: 2px solid gray;
-    padding: 10px;
     width: 150vh;
     padding: 20px;
 }
 
 .image-main{
-    width: 400px;
+    max-width: 100%;
     height: 300px;
+    width: 400px;
     object-fit: cover;
 }
 
@@ -45,19 +47,19 @@
 
 .header-main{
     font-size: 25px;
-    
+
 }
 .header-main-text{
-    
+
     font-size: 15px;
-    
+
 }
 
 .bg-custom{
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 5%, rgba(247,163,136,1) 76%, rgba(240,81,55,1) 100%);
 }
-    
+
 .name{
     color: rgb(54, 39, 39);
     font-size: 40px;
@@ -75,13 +77,35 @@
 .link:hover{
     color: #F04D33;
 }
+.logo{
+    position: absolute;
+    left: 15px;
+}
+.navbar>.container-fluid.header{
+    min-height: 85px;
+}
+.article-link{
+    display: flex;
+    justify-content: center;
+}
+@media all and (min-width:576px) {
+    .collapse.navbar-collapse {
+        flex-grow: 0;
+    }
+    .navbar>.container-fluid.header{
+        justify-content: center;
+    }
+}
+@media all and (max-width:1000px){
+    .nav-text{
+        padding: 5px;
+    }
+    .custom-text{
+        right: 21%;
+    }
+}
 
 @media all and (max-width:500px){
-    .custom-text{
-        top: 50px;
-        right: 70px;
-        font-size: 10px;
-    }
      .main-image{
         width: 100%;
         height: 100%;
