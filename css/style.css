@@ -77,10 +77,7 @@ html{
 .link:hover{
     color: #F04D33;
 }
-.logo{
-    position: absolute;
-    left: 15px;
-}
+
 .navbar>.container-fluid.header{
     min-height: 85px;
 }
@@ -94,6 +91,10 @@ html{
     }
     .navbar>.container-fluid.header{
         justify-content: center;
+    }
+    .logo{
+        position: absolute;
+        left: 15px;
     }
 }
 @media all and (max-width:1000px){
