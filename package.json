@@ -1,0 +1,39 @@
+{
+  "name": "helping_ukrainians_in_canada",
+  "version": "0.0.1",
+  "description": "Help in immigration to Canada",
+  "author": "UkrTO",
+  "scripts": {
+    "netlify": "npx netlify-cms-proxy-server",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "prod": "nuxt generate && nuxt start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/svtokarevsv/immigration_blog.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@nuxt/content": "^1.14.0",
+    "nuxt": "^2.15.8",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/svg": "^0.3.0",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "netlify-cli": "^7.0.0",
+    "nuxt-purgecss": "^1.0.0",
+    "postcss": "^8.3.11",
+    "postcss-easing-gradients": "^3.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.4.1",
+    "vue-content-placeholders": "^0.2.1"
+  }
+}
