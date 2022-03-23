@@ -59,7 +59,7 @@ export default {
     __dangerouslyDisableSanitizers: ['noscript'],
     script: [
       {
-        src: "bootstrap/js/bootstrap.min.js",
+        src: "/bootstrap/js/bootstrap.min.js",
         type: "text/javascript"
       }
     ],
