@@ -1,44 +1,36 @@
 <template>
   <div class="pt-4 my-md-5 pt-md-5 border-top p-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md">
-          <img class="mb-2" src="/img/_uit_logo_color.png" alt="" width="44" height="49">
-          <small class="d-block mb-3 text-muted">© 2017–2021</small>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Теми</h5>
-          <ul class="list-unstyled text-small">
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Переїзд в Канаду</a></li>
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Життя в Торонто</a></li>
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Події громади</a></li>
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">UkrTO Offers</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Про нас</h5>
-          <ul class="list-unstyled text-small">
-            <li class="mb-1">
-              <nuxt-link
-                to="/about"
-                class="link-secondary text-decoration-none">
-              Наша місія
-              </nuxt-link>
-            </li>
-            <li class="mb-1">
-              <nuxt-link
-                to="/cooperation"
-                class="link-secondary text-decoration-none">Співпраця
-              </nuxt-link>
-            </li>
-            <li class="mb-1">
-              <nuxt-link
-                to="/rules"
-                class="link-secondary text-decoration-none">Правила спільноти
-              </nuxt-link>
-            </li>
-          </ul>
-        </div>
+    <div class="container footer-links">
+      <div>
+          <nuxt-link
+              to="/about"
+              class="link-secondary text-decoration-none seconday-text">
+            Про проект
+          </nuxt-link>
+          <nuxt-link
+              to="/cooperation"
+              class="link-secondary text-decoration-none ms-5 seconday-text">
+            Співпраця
+          </nuxt-link>
+          <nuxt-link
+              to="/contact"
+              class="link-secondary text-decoration-none ms-5 seconday-text">
+            Контакти
+          </nuxt-link>
+      </div>
+      <div class="mt-4">
+        <a href="https://www.facebook.com/groups/ukrtogroup"  target="_blank">
+          <img src="/img/icons/facebook-f-brands.svg" class="social-icon" alt="facebook">
+        </a>
+        <a href="#" target="_blank">
+          <img src="/img/icons/twitter-brands.svg" class="social-icon" alt="twitter">
+        </a>
+        <a href="#" target="_blank">
+          <img src="/img/icons/instagram-brands.svg" class="social-icon" alt="instagram">
+        </a>
+        <a href="#" target="_blank">
+          <img src="/img/icons/linkedin-in-brands.svg" class="social-icon" alt="linkedin">
+        </a>
       </div>
     </div>
   </div>

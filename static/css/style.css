@@ -94,7 +94,9 @@ body {
     color: #F04D33;
     font-family: 'Fira Sans', sans-serif;
 }
-
+.link-inline{
+    display: inline-block;
+}
 .link:hover {
     color: #F04D33;
 }
@@ -114,7 +116,7 @@ main img {
 }
 
 .card-content {
-    width: 300px;
+    max-width: 300px;
     min-height: 300px;
     height: 100%;
     display: flex;
@@ -125,7 +127,15 @@ main img {
 .seconday-text {
     color: gray;
 }
-
+.social-icon{
+    height: 21px;
+    margin-right: 1rem;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 @media all and (min-width: 576px) {
     .collapse.navbar-collapse {
         flex-grow: 0;
