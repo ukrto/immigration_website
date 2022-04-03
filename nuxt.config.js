@@ -45,7 +45,7 @@ export default {
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,400;1,500&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,400;1,500&display=swap',
         media: 'print',
         onload: `this.media='all'`
       }

@@ -53,10 +53,11 @@ collections:
         widget: 'select',
         default: 'moving',
         options: [ { label: 'Переїзд', value: 'moving' },
-                   { label: 'Прихисток', value: 'shelter' },
-                   { label: 'Життя', value: 'life' },
-                   { label: 'Події', value: 'events' },
-                   { label: 'UkrToOffers', value: 'ukrToOffers' }
+                   { label: 'Документи', value: 'documents' },
+                   { label: 'Житло', value: 'realty' },
+                   { label: 'Робота', value: 'jobs' },
+                   { label: 'Мова', value: 'language' },
+                   { label: 'Фінанси', value: 'finances' }
         ],
       }
       - { label: 'Title', name: 'title', widget: 'string', required: true }

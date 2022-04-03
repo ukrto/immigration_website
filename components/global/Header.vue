@@ -12,19 +12,18 @@
       <div class="collapse navbar-collapse " id="navbarsExample03">
         <ul class="navbar-nav me-auto mb-2 mb-sm-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"> <span class="nav-text"> Прихисток</span></a>
+            <nuxt-link
+                to="/"
+                class="nav-link active" exact>
+              <span class="nav-text">Допомога переселенцям</span>
+            </nuxt-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"> <span class="nav-text"> Переїзд</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><span class="nav-text">Життя</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><span class="nav-text">Події</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><span class="nav-text">UkrToOffers</span></a>
+            <nuxt-link
+                to="/help_ukrainians"
+                class="nav-link active" exact>
+              <span class="nav-text">Help Ukrainians</span>
+            </nuxt-link>
           </li>
         </ul>
       </div>

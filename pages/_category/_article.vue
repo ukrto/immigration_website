@@ -55,7 +55,7 @@
                     :to="post.slug"
                     class="link"
                 >
-                {{ post.title }}
+                  {{ post.title }}
                 </nuxt-link>
               </li>
             </ol>
@@ -63,7 +63,7 @@
           <div class="p-4">
             <h4 class="fst-italic">Elsewhere</h4>
             <ol class="list-unstyled">
-<!--              <li><a class="link" href="#">Instagram</a></li>-->
+              <!--              <li><a class="link" href="#">Instagram</a></li>-->
               <li><a class="link" target="_blank" href="https://www.facebook.com/groups/ukrtogroup">Facebook</a></li>
             </ol>
           </div>
@@ -94,8 +94,7 @@ export default {
     let post;
     let posts;
     try {
-      post = await $content('blog', params.blog).fetch();
-      debugger
+      post = await $content('blog', params.article).fetch();
       posts = await $content("blog").only(['title','url_name', 'slug']).fetch();
       posts.unshift({slug:'/', title:'Головна: Правила, процедури та новини для Українців'})
       if (post.sections) {
